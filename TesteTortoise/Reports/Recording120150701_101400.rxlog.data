@@ -1,0 +1,290 @@
+﻿<report>
+	<activity
+	user="edgar.almeida"
+	host="SUATI10"
+	rxversion="5.3.1.22939"
+	osversion="Windows 7 Service Pack 1 64bit"
+	runtimeversion="4.0.30319.18444"
+	procarch="32bit"
+	language="en-US"
+	screenresolution="1920x1080"
+	timestamp="01/07/2015 10:14:06"
+	timestampiso="2015-07-01T13:14:06"
+	module="Recording1"
+	timeoutfactor="1"
+	result="Success"
+	duration="0ms"
+	durationms="0"
+	type="root"
+	rid="1ee7074c0fbe5b50"
+	totalerrorcount="0"
+	totalwarningcount="0"
+	totalsuccesscount="0"
+	totalfailedcount="0"
+	totalblockedcount="0">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings/>
+		<item
+		time="00:00.325"
+		level="Info"
+		category="Application">
+			<message>
+				Run application 'C:\Windows\System32\notepad.exe' with arguments '' in normal mode.
+			</message>
+			<metainfo
+			itemindex="0"
+			codefile="c:\Users\edgar.almeida\Documents\Ranorex\RanorexStudio Projects\TesteTortoise\TesteTortoise\Recording1.cs"
+			codeline="82"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:00.479"
+		level="Info"
+		category="Keyboard">
+			<message>
+				Key sequence '{RShiftKey down}T{RShiftKey up}este{Space down}1{Space up}23'.
+			</message>
+			<metainfo
+			itemindex="1"
+			codefile="c:\Users\edgar.almeida\Documents\Ranorex\RanorexStudio Projects\TesteTortoise\TesteTortoise\Recording1.cs"
+			codeline="85"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:00.812"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'UntitledNotepad.File' at 5;6.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Untitled - Notepad']/?/?/menuitem[@accessiblename='File']"
+			fullname="TesteTortoiseRepository.UntitledNotepad.File"
+			id="bb9eafe380c54c0a86d02ebaf508796e"
+			timeout="60000"
+			codefile="c:\Users\edgar.almeida\Documents\Ranorex\RanorexStudio Projects\TesteTortoise\TesteTortoise\Recording1.cs"
+			codeline="88"
+			itemindex="2"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:01.857"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'UntitledNotepad.Text15' at 430;118.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Untitled - Notepad']/text[@controlid='15']"
+			fullname="TesteTortoiseRepository.UntitledNotepad.Text15"
+			id="f136504bcc5d4e1581e2351dee255727"
+			timeout="60000"
+			codefile="c:\Users\edgar.almeida\Documents\Ranorex\RanorexStudio Projects\TesteTortoise\TesteTortoise\Recording1.cs"
+			codeline="91"
+			itemindex="3"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:02.044"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Down item 'UntitledNotepad.Text15' at 272;63.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Untitled - Notepad']/text[@controlid='15']"
+			fullname="TesteTortoiseRepository.UntitledNotepad.Text15"
+			id="f136504bcc5d4e1581e2351dee255727"
+			timeout="60000"
+			codefile="c:\Users\edgar.almeida\Documents\Ranorex\RanorexStudio Projects\TesteTortoise\TesteTortoise\Recording1.cs"
+			codeline="94"
+			itemindex="4"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:02.095"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Up item 'Explorer.List1' at 429;247.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/desktop[@processname='explorer']/?/?/list[@controlid='1']"
+			fullname="TesteTortoiseRepository.Explorer.List1"
+			id="aa6826b707f0493db15fc1e594b6845b"
+			timeout="60000"
+			codefile="c:\Users\edgar.almeida\Documents\Ranorex\RanorexStudio Projects\TesteTortoise\TesteTortoise\Recording1.cs"
+			codeline="98"
+			itemindex="5"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:02.325"
+		level="Info"
+		category="Keyboard">
+			<message>
+				Key sequence '{LControlKey}' with focus on 'UntitledNotepad.Text15'.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Untitled - Notepad']/text[@controlid='15']"
+			fullname="TesteTortoiseRepository.UntitledNotepad.Text15"
+			id="f136504bcc5d4e1581e2351dee255727"
+			timeout="60000"
+			codefile="c:\Users\edgar.almeida\Documents\Ranorex\RanorexStudio Projects\TesteTortoise\TesteTortoise\Recording1.cs"
+			codeline="102"
+			itemindex="6"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:02.513"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'UntitledNotepad.Edit' at 17;12.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Untitled - Notepad']/?/?/menuitem[@accessiblename='Edit']"
+			fullname="TesteTortoiseRepository.UntitledNotepad.Edit"
+			id="289cffd3f81342ddaaa7682441b407cb"
+			timeout="60000"
+			codefile="c:\Users\edgar.almeida\Documents\Ranorex\RanorexStudio Projects\TesteTortoise\TesteTortoise\Recording1.cs"
+			codeline="105"
+			itemindex="7"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:02.706"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'Notepad.Font' at 38;8.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/contextmenu[@processname='notepad']/?/?/menuitem[@accessiblename='Font...']"
+			fullname="TesteTortoiseRepository.Notepad.Font"
+			id="8b5181a6568341bbac0d30ba73d286de"
+			timeout="60000"
+			codefile="c:\Users\edgar.almeida\Documents\Ranorex\RanorexStudio Projects\TesteTortoise\TesteTortoise\Recording1.cs"
+			codeline="108"
+			itemindex="8"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:12.000"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'Font.Text1001' at 28;5.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Font']/combobox[@controlid='1138']/text[@controlid='1001']"
+			fullname="TesteTortoiseRepository.Font.Text1001"
+			id="e1f66c5cbc65464ca362bd8fd2c106e5"
+			timeout="60000"
+			codefile="c:\Users\edgar.almeida\Documents\Ranorex\RanorexStudio Projects\TesteTortoise\TesteTortoise\Recording1.cs"
+			codeline="111"
+			itemindex="9"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:12.491"
+		level="Info"
+		category="Keyboard">
+			<message>
+				Key sequence '15' with focus on 'Font.Text1001'.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Font']/combobox[@controlid='1138']/text[@controlid='1001']"
+			fullname="TesteTortoiseRepository.Font.Text1001"
+			id="e1f66c5cbc65464ca362bd8fd2c106e5"
+			timeout="60000"
+			codefile="c:\Users\edgar.almeida\Documents\Ranorex\RanorexStudio Projects\TesteTortoise\TesteTortoise\Recording1.cs"
+			codeline="114"
+			itemindex="10"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:12.686"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'Font.ButtonOK' at 70;6.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Font']/button[@text='OK']"
+			fullname="TesteTortoiseRepository.Font.ButtonOK"
+			id="3cfa541e4c3942d4ba3546954af88fc9"
+			timeout="60000"
+			codefile="c:\Users\edgar.almeida\Documents\Ranorex\RanorexStudio Projects\TesteTortoise\TesteTortoise\Recording1.cs"
+			codeline="117"
+			itemindex="11"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:12.999"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'UntitledNotepad.File' at 19;11.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Untitled - Notepad']/?/?/menuitem[@accessiblename='File']"
+			fullname="TesteTortoiseRepository.UntitledNotepad.File"
+			id="bb9eafe380c54c0a86d02ebaf508796e"
+			timeout="60000"
+			codefile="c:\Users\edgar.almeida\Documents\Ranorex\RanorexStudio Projects\TesteTortoise\TesteTortoise\Recording1.cs"
+			codeline="120"
+			itemindex="12"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:13.188"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'Notepad.Exit' at 48;9.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/contextmenu[@processname='notepad']/?/?/menuitem[@accessiblename='Exit']"
+			fullname="TesteTortoiseRepository.Notepad.Exit"
+			id="053a3d67517e4df5a945d917ded72d7f"
+			timeout="60000"
+			codefile="c:\Users\edgar.almeida\Documents\Ranorex\RanorexStudio Projects\TesteTortoise\TesteTortoise\Recording1.cs"
+			codeline="123"
+			itemindex="13"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:13.491"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'Notepad1.DontSave' at 34;9.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Notepad']/?/?/element[@instance='1']/button[@text='Do&amp;n''t Save']"
+			fullname="TesteTortoiseRepository.Notepad1.DontSave"
+			id="d0beb9058013444984b5003a68f3383d"
+			timeout="60000"
+			codefile="c:\Users\edgar.almeida\Documents\Ranorex\RanorexStudio Projects\TesteTortoise\TesteTortoise\Recording1.cs"
+			codeline="126"
+			itemindex="14"
+			loglvl="Info"/>
+		</item>
+	</activity>
+</report>

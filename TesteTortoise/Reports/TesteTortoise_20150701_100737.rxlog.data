@@ -1,0 +1,83 @@
+﻿<report>
+	<activity
+	user="edgar.almeida"
+	host="SUATI10"
+	rxversion="5.3.1.22939"
+	osversion="Windows 7 Service Pack 1 64bit"
+	runtimeversion="4.0.30319.18444"
+	procarch="32bit"
+	language="en-US"
+	screenresolution="1920x1080"
+	timestamp="01/07/2015 10:07:37"
+	timestampiso="2015-07-01T13:07:37"
+	timeoutfactor="1"
+	result="Success"
+	duration="0ms"
+	durationms="0"
+	type="root"
+	rid="5a664faf8c5828c"
+	totalerrorcount="0"
+	totalwarningcount="0"
+	totalsuccesscount="1"
+	totalfailedcount="0"
+	totalblockedcount="0">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+		testsuitename="TesteTortoise"
+		runconfigname="TestRun"
+		runlabel=""
+		maxchildren="1"
+		result="Success"
+		duration="38ms"
+		durationms="38"
+		type="test suite"
+		rid="abd77addb37b3e8"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="1"
+		totalfailedcount="0"
+		totalblockedcount="0">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+			testcasename="TestCase"
+			testcaseid="6e113438-ce83-497a-af68-5a7987833dd1"
+			maxchildren="0"
+			result="Success"
+			duration="26ms"
+			durationms="26"
+			type="test case"
+			rid="17fff62064984486"
+			totalerrorcount="0"
+			totalwarningcount="0"
+			totalsuccesscount="1"
+			totalfailedcount="0"
+			totalblockedcount="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+				modulename="Recording1"
+				moduleid="cecfa0e6-02c5-43d8-8e47-86480071b654"
+				moduletype="Recording"
+				result="Success"
+				duration="8ms"
+				durationms="8"
+				type="test module"
+				rid="18b8590e99728a2c"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="0"
+				totalblockedcount="0">
+					<detail>
+					</detail>
+					<varbindings/>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>
