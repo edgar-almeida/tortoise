@@ -24,29 +24,29 @@ namespace TesteTortoise
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The Recording1 recording.
+    ///The Recording2 recording.
     /// </summary>
-    [TestModule("cecfa0e6-02c5-43d8-8e47-86480071b654", ModuleType.Recording, 1)]
-    public partial class Recording1 : ITestModule
+    [TestModule("aac1284d-7682-4d6e-9130-b9c8f6e52293", ModuleType.Recording, 1)]
+    public partial class Recording2 : ITestModule
     {
         /// <summary>
         /// Holds an instance of the TesteTortoiseRepository repository.
         /// </summary>
         public static TesteTortoiseRepository repo = TesteTortoiseRepository.Instance;
 
-        static Recording1 instance = new Recording1();
+        static Recording2 instance = new Recording2();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public Recording1()
+        public Recording2()
         {
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static Recording1 Instance
+        public static Recording2 Instance
         {
             get { return instance; }
         }
@@ -73,37 +73,31 @@ namespace TesteTortoise
         [System.CodeDom.Compiler.GeneratedCode("Ranorex", "5.3.1")]
         void ITestModule.Run()
         {
-            Mouse.DefaultMoveTime = 0;
-            Keyboard.DefaultKeyPressTime = 20;
-            Delay.SpeedFactor = 0.0;
+            Mouse.DefaultMoveTime = 300;
+            Keyboard.DefaultKeyPressTime = 100;
+            Delay.SpeedFactor = 1.0;
 
             Init();
 
             Report.Log(ReportLevel.Info, "Application", "Run application 'C:\\Windows\\System32\\notepad.exe' with arguments '' in normal mode.", new RecordItemIndex(0));
             Host.Local.RunApplication("C:\\Windows\\System32\\notepad.exe", "", "C:\\Windows\\System32", false);
+            Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'UntitledNotepad.Text15' at 51;18.", repo.UntitledNotepad.Text15Info, new RecordItemIndex(1));
-            repo.UntitledNotepad.Text15.Click("51;18");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '321'.", new RecordItemIndex(1));
+            Keyboard.Press("321");
+            Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'teste{Space down}1{Space up}23' with focus on 'UntitledNotepad.Text15'.", repo.UntitledNotepad.Text15Info, new RecordItemIndex(2));
-            repo.UntitledNotepad.Text15.PressKeys("teste{Space down}1{Space up}23");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'UntitledNotepad.File' at 16;12.", repo.UntitledNotepad.FileInfo, new RecordItemIndex(2));
+            repo.UntitledNotepad.File.Click("16;12");
+            Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'UntitledNotepad.File' at 17;15.", repo.UntitledNotepad.FileInfo, new RecordItemIndex(3));
-            repo.UntitledNotepad.File.Click("17;15");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Notepad.Exit' at 62;13.", repo.Notepad.ExitInfo, new RecordItemIndex(3));
+            repo.Notepad.Exit.Click("62;13");
+            Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Notepad.Exit' at 65;10.", repo.Notepad.ExitInfo, new RecordItemIndex(4));
-            repo.Notepad.Exit.Click("65;10");
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Down item 'Notepad1.DontSave' at 53;12.", repo.Notepad1.DontSaveInfo, new RecordItemIndex(5));
-            repo.Notepad1.DontSave.MoveTo("53;12");
-            Mouse.ButtonDown(System.Windows.Forms.MouseButtons.Left);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Up item 'Notepad1.DontSave' at 49;20.", repo.Notepad1.DontSaveInfo, new RecordItemIndex(6));
-            repo.Notepad1.DontSave.MoveTo("49;20");
-            Mouse.ButtonUp(System.Windows.Forms.MouseButtons.Left);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Notepad1.DontSave' at 53;12.", repo.Notepad1.DontSaveInfo, new RecordItemIndex(7));
-            repo.Notepad1.DontSave.Click("53;12");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Notepad1.DontSave' at 42;7.", repo.Notepad1.DontSaveInfo, new RecordItemIndex(4));
+            repo.Notepad1.DontSave.Click("42;7");
+            Delay.Milliseconds(200);
             
         }
 

@@ -57,6 +57,9 @@
     <Compile Include="AssemblyInfo.cs">
       <id>4516bd79-ca8b-4977-9487-a99aa3990c4a</id>
     </Compile>
+    <Compile Include="ClassA.cs">
+      <id>f736265a-949d-4553-a04a-14a389a8aa38</id>
+    </Compile>
     <Compile Include="Program.cs">
       <id>2975cd66-7392-40f8-acfc-c2d4d4be8c72</id>
     </Compile>
@@ -72,6 +75,18 @@
       <UserCode>true</UserCode>
       <id>117dfec6-bc36-4c6b-9754-863931d2aee5</id>
     </Compile>
+    <Compile Include="Recording2.cs">
+      <BoundTo>55a29e21-d0fa-4f4a-9ec3-26321b779425</BoundTo>
+      <DependentUpon>Recording2.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>37c4400c-3fa1-4094-a5a5-6fa33e21cfd0</id>
+    </Compile>
+    <Compile Include="Recording2.UserCode.cs">
+      <BoundTo>55a29e21-d0fa-4f4a-9ec3-26321b779425</BoundTo>
+      <DependentUpon>Recording2.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ebeae8fd-fa53-4edd-932e-4f0948f9bfdf</id>
+    </Compile>
     <Compile Include="TesteTortoiseRepository.cs">
       <BoundTo>3a3da64c-5678-489c-bd44-d31662b69467</BoundTo>
       <DependentUpon>TesteTortoiseRepository.rxrep</DependentUpon>
@@ -85,6 +100,11 @@
       <BoundTo>3a3da64c-5678-489c-bd44-d31662b69467</BoundTo>
       <id>a36a0c7d-f45d-4cbe-a6bd-11d9cff1fa6e</id>
       <recordtableid>cecfa0e6-02c5-43d8-8e47-86480071b654</recordtableid>
+    </None>
+    <None Include="Recording2.rxrec">
+      <BoundTo>3a3da64c-5678-489c-bd44-d31662b69467</BoundTo>
+      <id>55a29e21-d0fa-4f4a-9ec3-26321b779425</id>
+      <recordtableid>aac1284d-7682-4d6e-9130-b9c8f6e52293</recordtableid>
     </None>
     <None Include="TesteTortoiseRepository.rximg">
       <BoundTo>3a3da64c-5678-489c-bd44-d31662b69467</BoundTo>

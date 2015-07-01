@@ -14,7 +14,7 @@ rxversion="5.3.1.22939">
 	usecache="True">
 		<appfolder
 		name="UntitledNotepad"
-		id="4ddf9ff5-fd72-426f-82b2-860d9ceacb1b"
+		id="774cce00-826f-490d-af5a-751d33e9f04d"
 		searchtimeout="30000ms"
 		capname="form"
 		refpath="/form[@title='Untitled - Notepad']"
@@ -22,34 +22,24 @@ rxversion="5.3.1.22939">
 		isrooted="True"
 		usecache="True">
 			<item
-			name="File"
-			id="bb9eafe3-80c5-4c0a-86d0-2ebaf508796e"
-			searchtimeout="30000ms"
-			capname="menuitem"
-			refpath="/form[@title='Untitled - Notepad']/menubar[@accessiblename='Application']/menuitem[@accessiblename='File']"
-			addcaps="menuitem,accessible"
-			refimgid="bf6ccca5-5b0d-466b-8385-0aabba4f2c72">
-				/form[@title='Untitled - Notepad']/?/?/menuitem[@accessiblename='File']
-			</item>
-			<item
 			name="Text15"
-			id="f136504b-cc5d-4e15-81e2-351dee255727"
+			id="8b563e93-8ed2-4b9c-bfdb-61a5ed333501"
 			searchtimeout="30000ms"
 			capname="text"
 			refpath="/form[@title='Untitled - Notepad']/text[@controlid='15']"
 			addcaps="text,nativewindow"
-			refimgid="f4924561-1f8c-439f-9c0b-c406e7f64b88">
+			refimgid="baec2f12-b38f-40a5-a159-42c933cd75da">
 				/form[@title='Untitled - Notepad']/text[@controlid='15']
 			</item>
 			<item
-			name="Edit"
-			id="289cffd3-f813-42dd-aaa7-682441b407cb"
+			name="File"
+			id="340973ef-822e-4231-9b91-9bfdf188b8ed"
 			searchtimeout="30000ms"
 			capname="menuitem"
-			refpath="/form[@title='Untitled - Notepad']/menubar[@accessiblename='Application']/menuitem[@accessiblename='Edit']"
+			refpath="/form[@title='Untitled - Notepad']/menubar[@accessiblename='Application']/menuitem[@accessiblename='File']"
 			addcaps="menuitem,accessible"
-			refimgid="ab96360c-cd2f-482d-996e-538260c2db00">
-				/form[@title='Untitled - Notepad']/?/?/menuitem[@accessiblename='Edit']
+			refimgid="a15f965b-9078-4edc-894f-ef5193c0d4e9">
+				/form[@title='Untitled - Notepad']/?/?/menuitem[@accessiblename='File']
 			</item>
 			<basepath>
 				/form[@title='Untitled - Notepad']
@@ -72,45 +62,8 @@ F0Wgr4voafeUAAAAAElFTkSuQmCC
 			</icon>
 		</appfolder>
 		<appfolder
-		name="Explorer"
-		id="dd7f4329-3313-4375-bf04-28aba9acf7e5"
-		searchtimeout="30000ms"
-		capname="desktop"
-		refpath="/desktop[@processname='explorer']"
-		addcaps="desktop,nativewindow"
-		isrooted="True"
-		usecache="True">
-			<item
-			name="List1"
-			id="aa6826b7-07f0-493d-b15f-c1e594b6845b"
-			searchtimeout="30000ms"
-			capname="list"
-			refpath="/desktop[@processname='explorer']/container/list[@controlid='1']"
-			addcaps="list,nativewindow"
-			refimgid="36a8983e-7236-43ce-b4ad-1324102dc77a">
-				/desktop[@processname='explorer']/?/?/list[@controlid='1']
-			</item>
-			<basepath>
-				/desktop[@processname='explorer']
-			</basepath>
-			<icon>
-				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
-AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
-dC5ORVQgdjMuMzE3g3eGAAACBElEQVQ4T4WSUWgScRzHHfQcLPZcL0EQFNtTQU9FRUHSXhaTRbBA
-ixBRiIhAMIz2JERgT0bI1ALZy6BCyY0RMtuZeqPi0hlUE0JcyZXV7S6/u9/vdnezC/rDB/7c///5
-8L//net/43TmG/6m2Wxie9kYC8I6Xjc7eLL0wbH50aqMWVHm+Y2ChiMz7xGPx+3IgduStZnmmUoX
-i1IX6GsOaA8FQqEQRFG0A/kNsNzXflhQ5Pi8yhy7Vbae/zPAstphRmd/WWJvE2jJMAL6GsnEg/17
-kcvl7EDtUwv9zS8MBWiY8pp+OlMst4C3F/dBvnsYubFhFItFcOCP8tGCAor+yiQTJL5aB8sZ0bhE
-kj0eD5LJ5Hbg95oFBUz5/p1plu+97FmnGLpShtvtRjgctk/Q2XgD7aeBGRjZPcSYIkHrFPB6vYN3
-UFit6os1hgJ03J3QJZrrFHB8hReiALW3wlBg+bMtmpBM/4gjsGfqGQq1ZWjfi8xOSf363ILl8aeM
-I0CU3y1ClRegdnWB0KXRm0sDHDpxFecnLiMWi6HRaNiBXWfnMHzusUM4euoSJqem4ff7EQwGEYlE
-kEqlUKlUIMuyEZhJreDghYcYO3MdJ8evwefzIRAI8DGj0Siy2SxKpRKq1SokSUK73YaiKIZsjnw+
-j0QigXQ6DZoLgsDvWK/XBzc6hsu1BRMfpP7Bj/TsAAAAAElFTkSuQmCC
-			</icon>
-		</appfolder>
-		<appfolder
 		name="Notepad"
-		id="ec617235-78fc-46a8-966a-87d1d614a79c"
+		id="83874074-e155-4364-89f2-56fdfa99debc"
 		searchtimeout="30000ms"
 		capname="contextmenu"
 		refpath="/contextmenu[@processname='notepad']"
@@ -118,23 +71,13 @@ j0QigXQ6DZoLgsDvWK/XBzc6hsu1BRMfpP7Bj/TsAAAAAElFTkSuQmCC
 		isrooted="True"
 		usecache="True">
 			<item
-			name="Font"
-			id="8b5181a6-5683-41bb-ac0d-30ba73d286de"
-			searchtimeout="30000ms"
-			capname="menuitem"
-			refpath="/contextmenu[@processname='notepad']/contextmenu/menuitem[@accessiblename='Font...']"
-			addcaps="menuitem,accessible"
-			refimgid="98acdcbe-b869-4050-a858-e973e4307855">
-				/contextmenu[@processname='notepad']/?/?/menuitem[@accessiblename='Font...']
-			</item>
-			<item
 			name="Exit"
-			id="053a3d67-517e-4df5-a945-d917ded72d7f"
+			id="1a4772a1-2c65-4dd1-b21c-5fbff171d52b"
 			searchtimeout="30000ms"
 			capname="menuitem"
 			refpath="/contextmenu[@processname='notepad']/contextmenu/menuitem[@accessiblename='Exit']"
 			addcaps="menuitem,accessible"
-			refimgid="65b1f99b-4c6c-4001-b9dc-31ca37c8b7a7">
+			refimgid="be010cf1-3ca0-4001-8c8b-11d188e33070">
 				/contextmenu[@processname='notepad']/?/?/menuitem[@accessiblename='Exit']
 			</item>
 			<basepath>
@@ -196,57 +139,8 @@ DAPIxVgFicf/GQCdrAkiuOdOjQAAAABJRU5ErkJggg==
 			</icon>
 		</appfolder>
 		<appfolder
-		name="Font"
-		id="73535243-5646-4236-b57f-f63f86fb8dcc"
-		searchtimeout="30000ms"
-		capname="form"
-		refpath="/form[@title='Font']"
-		addcaps="form,nativewindow"
-		isrooted="True"
-		usecache="True">
-			<item
-			name="Text1001"
-			id="e1f66c5c-bc65-464c-a362-bd8fd2c106e5"
-			searchtimeout="30000ms"
-			capname="text"
-			refpath="/form[@title='Font']/combobox[@controlid='1138']/text[@controlid='1001']"
-			addcaps="text,nativewindow"
-			refimgid="f67eb308-e249-440e-b1c0-49c37339b5b2">
-				/form[@title='Font']/combobox[@controlid='1138']/text[@controlid='1001']
-			</item>
-			<item
-			name="ButtonOK"
-			id="3cfa541e-4c39-42d4-ba35-46954af88fc9"
-			searchtimeout="30000ms"
-			capname="button"
-			refpath="/form[@title='Font']/button[@text='OK']"
-			addcaps="button,nativewindow"
-			refimgid="f7d005c3-065d-4305-b390-d5cf35d1ab8a">
-				/form[@title='Font']/button[@text='OK']
-			</item>
-			<basepath>
-				/form[@title='Font']
-			</basepath>
-			<icon>
-				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
-jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAKPSURBVDhPjZHLTxNRFMbZm7j2/zG6cEPUxD07
-486QaCIhYHhoqZSXpRFsAVseQaUBQkHBSqGl005n2k470+l0Xi2lD2irjWv5vDMotdEFJzk5NzO5
-3/f7zu34X/VNzeAq85+a5dT07XsPQJ3UcKvzPvx61ZzruRNzevi8OV9RPEaDCbgtnf2/r3Z0ULXa
-dVssW5YbP5CpNZGofkOkVEfg+Aw7WgVeIrIo5OHkVAwGWFgP45gY7GqRuHn9piOeE6V6E/xpE2y5
-gaNiDf58FVtKCR+lY7gFHTMJBf1faDhjmXYBR1weWhT0A0o9xqFSgF/S4RNUeFM5LMdFzDECpqmU
-6fx4bRcrDN8uYItJe+ty0cudfgdTaSBM8PcLVWxrZYJfxFKG4Kc0TDA5dG8eIFGptwuMREVtV624
-AnIBe9kL9zXivhLPYp7JEPc0xkIcBvYZPFzaglattQSsicQ1a1TMbyonc9FyHaHimZndpxJ36cLd
-lVJhjysYDqfx1BfEz/PzlsAonb3zmpXZVbEw/0nUsMEr+MBJWCLZXTEjO3EPJjF0wOKZL4Seja9o
-NJstgRFaHHFyyrYnrS0Eiqf4rFewKZfwnmzeQzb/ltMwxeZgoUX0+RnYwykYdSkwHBEO3eSyM6m8
-86ZlrCYluNkMZmM87GTzo4Y7efuevRi6vX4sUMl2gkFK0FycOm1nZY9PLWGN5F7OFDCX1uFIyBhj
-JLyIiOgNGvlDoAnlJUFfJH3jZVSUyJIcM5y6+Ce7sfk3UR6TRxyshGCYEPT6aTxa9iFbqrYInh8J
-dwkBLFHRdJogWcfJW4+Ts83oWBaT5JvRNjqLJzth092oywh/V07VTfWr9H8Fxge6NowfV2m3pbP/
-F0Wgr4voafeUAAAAAElFTkSuQmCC
-			</icon>
-		</appfolder>
-		<appfolder
 		name="Notepad1"
-		id="5b5e43a8-e935-4170-a618-d0fece9aafdf"
+		id="1dd4c318-20e2-4648-86b6-eec5bf8ba123"
 		searchtimeout="30000ms"
 		capname="form"
 		refpath="/form[@title='Notepad']"
@@ -255,12 +149,12 @@ F0Wgr4voafeUAAAAAElFTkSuQmCC
 		usecache="True">
 			<item
 			name="DontSave"
-			id="d0beb905-8013-4449-84b5-003a68f3383d"
+			id="f992f677-6aa5-43e2-bb22-6fd7e6795863"
 			searchtimeout="30000ms"
 			capname="button"
 			refpath="/form[@title='Notepad']/container/element[@class='CtrlNotifySink' and @instance='1']/button[@text='Do&amp;n''t Save']"
 			addcaps="button,nativewindow"
-			refimgid="8850f655-93f9-4fad-9db1-e4d96e3d1f96">
+			refimgid="5da686d0-7f9a-48cd-87a2-61088b3cd308">
 				/form[@title='Notepad']/?/?/element[@instance='1']/button[@text='Do&amp;n''t Save']
 			</item>
 			<basepath>

@@ -1,16 +1,46 @@
 ﻿<testsuite
 name="TesteTortoise"
 rxversion="5.3.1.22939"
-id="bcd362c0-d646-42d3-b785-38591aa5f130">
-  <content>
-    <testcase name="TestCase" id="6e113438-ce83-497a-af68-5a7987833dd1">
-      <testmodule name="Recording1" id="19e8307f-31a3-4aaf-824b-4a9e1ae14f71" ref="cecfa0e6-02c5-43d8-8e47-86480071b654" type="Recording"/>
-    </testcase>
-  </content>
-  <testconfigurations default="TestRun">
-    <testconfiguration name="TestRun">
-      <testcase id="6e113438-ce83-497a-af68-5a7987833dd1"/>
-    </testconfiguration>
-  </testconfigurations>
-  <references/>
+id="bcd362c0-d646-42d3-b785-38591aa5f130"
+reportfilename="%S_%Y%M%D_%T.rxlog"
+reporttemplatefolder=""
+reportxslfilename=""
+placescreenshotsinfolder="True"
+reportwriteinterval="30000ms"
+reportcompress="False"
+enabletracingscreenshots="True"
+reportlevel="Info;20">
+	<content>
+		<testcase
+		name="TestCase"
+		id="6e113438-ce83-497a-af68-5a7987833dd1">
+			<testmodule
+			name="Recording1"
+			id="19e8307f-31a3-4aaf-824b-4a9e1ae14f71"
+			ref="cecfa0e6-02c5-43d8-8e47-86480071b654"
+			type="Recording"/>
+			<testcase
+			name="TestCase1"
+			id="e8c6bedd-2df3-4185-9155-1e2369ba86ba">
+				<testmodule
+				name="Recording2"
+				id="41d46171-94d7-4655-96db-10f82900745e"
+				ref="aac1284d-7682-4d6e-9130-b9c8f6e52293"
+				type="Recording"/>
+			</testcase>
+		</testcase>
+	</content>
+	<testconfigurations
+	default="TestRun">
+		<testconfiguration
+		name="TestRun">
+			<testcase
+			id="6e113438-ce83-497a-af68-5a7987833dd1"/>
+			<testcase
+			id="bcd362c0-d646-42d3-b785-38591aa5f130"/>
+			<testcase
+			id="e8c6bedd-2df3-4185-9155-1e2369ba86ba"/>
+		</testconfiguration>
+	</testconfigurations>
+	<references/>
 </testsuite>

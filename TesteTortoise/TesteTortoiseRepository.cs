@@ -28,9 +28,7 @@ namespace TesteTortoise
     {
         static TesteTortoiseRepository instance = new TesteTortoiseRepository();
         TesteTortoiseRepositoryFolders.UntitledNotepadAppFolder _untitlednotepad;
-        TesteTortoiseRepositoryFolders.ExplorerAppFolder _explorer;
         TesteTortoiseRepositoryFolders.NotepadAppFolder _notepad;
-        TesteTortoiseRepositoryFolders.FontAppFolder _font;
         TesteTortoiseRepositoryFolders.Notepad1AppFolder _notepad1;
 
         /// <summary>
@@ -49,9 +47,7 @@ namespace TesteTortoise
             : base("TesteTortoiseRepository", "/", null, 0, false, "3c2c961a-3564-4d41-91b3-1756b94141d2", ".\\RepositoryImages\\TesteTortoiseRepository3c2c961a.rximgres")
         {
             _untitlednotepad = new TesteTortoiseRepositoryFolders.UntitledNotepadAppFolder(this);
-            _explorer = new TesteTortoiseRepositoryFolders.ExplorerAppFolder(this);
             _notepad = new TesteTortoiseRepositoryFolders.NotepadAppFolder(this);
-            _font = new TesteTortoiseRepositoryFolders.FontAppFolder(this);
             _notepad1 = new TesteTortoiseRepositoryFolders.Notepad1AppFolder(this);
         }
 
@@ -74,43 +70,25 @@ namespace TesteTortoise
         /// <summary>
         /// The UntitledNotepad folder.
         /// </summary>
-        [RepositoryFolder("4ddf9ff5-fd72-426f-82b2-860d9ceacb1b")]
+        [RepositoryFolder("774cce00-826f-490d-af5a-751d33e9f04d")]
         public virtual TesteTortoiseRepositoryFolders.UntitledNotepadAppFolder UntitledNotepad
         {
             get { return _untitlednotepad; }
         }
 
         /// <summary>
-        /// The Explorer folder.
-        /// </summary>
-        [RepositoryFolder("dd7f4329-3313-4375-bf04-28aba9acf7e5")]
-        public virtual TesteTortoiseRepositoryFolders.ExplorerAppFolder Explorer
-        {
-            get { return _explorer; }
-        }
-
-        /// <summary>
         /// The Notepad folder.
         /// </summary>
-        [RepositoryFolder("ec617235-78fc-46a8-966a-87d1d614a79c")]
+        [RepositoryFolder("83874074-e155-4364-89f2-56fdfa99debc")]
         public virtual TesteTortoiseRepositoryFolders.NotepadAppFolder Notepad
         {
             get { return _notepad; }
         }
 
         /// <summary>
-        /// The Font folder.
-        /// </summary>
-        [RepositoryFolder("73535243-5646-4236-b57f-f63f86fb8dcc")]
-        public virtual TesteTortoiseRepositoryFolders.FontAppFolder Font
-        {
-            get { return _font; }
-        }
-
-        /// <summary>
         /// The Notepad1 folder.
         /// </summary>
-        [RepositoryFolder("5b5e43a8-e935-4170-a618-d0fece9aafdf")]
+        [RepositoryFolder("1dd4c318-20e2-4648-86b6-eec5bf8ba123")]
         public virtual TesteTortoiseRepositoryFolders.Notepad1AppFolder Notepad1
         {
             get { return _notepad1; }
@@ -126,28 +104,26 @@ namespace TesteTortoise
         /// <summary>
         /// The UntitledNotepadAppFolder folder.
         /// </summary>
-        [RepositoryFolder("4ddf9ff5-fd72-426f-82b2-860d9ceacb1b")]
+        [RepositoryFolder("774cce00-826f-490d-af5a-751d33e9f04d")]
         public partial class UntitledNotepadAppFolder : RepoGenBaseFolder
         {
-            RepoItemInfo _fileInfo;
             RepoItemInfo _text15Info;
-            RepoItemInfo _editInfo;
+            RepoItemInfo _fileInfo;
 
             /// <summary>
             /// Creates a new UntitledNotepad  folder.
             /// </summary>
             public UntitledNotepadAppFolder(RepoGenBaseFolder parentFolder) :
-                    base("UntitledNotepad", "/form[@title='Untitled - Notepad']", parentFolder, 30000, null, true, "4ddf9ff5-fd72-426f-82b2-860d9ceacb1b", "")
+                    base("UntitledNotepad", "/form[@title='Untitled - Notepad']", parentFolder, 30000, null, true, "774cce00-826f-490d-af5a-751d33e9f04d", "")
             {
-                _fileInfo = new RepoItemInfo(this, "File", "?/?/menuitem[@accessiblename='File']", 30000, null, "bb9eafe3-80c5-4c0a-86d0-2ebaf508796e");
-                _text15Info = new RepoItemInfo(this, "Text15", "text[@controlid='15']", 30000, null, "f136504b-cc5d-4e15-81e2-351dee255727");
-                _editInfo = new RepoItemInfo(this, "Edit", "?/?/menuitem[@accessiblename='Edit']", 30000, null, "289cffd3-f813-42dd-aaa7-682441b407cb");
+                _text15Info = new RepoItemInfo(this, "Text15", "text[@controlid='15']", 30000, null, "8b563e93-8ed2-4b9c-bfdb-61a5ed333501");
+                _fileInfo = new RepoItemInfo(this, "File", "?/?/menuitem[@accessiblename='File']", 30000, null, "340973ef-822e-4231-9b91-9bfdf188b8ed");
             }
 
             /// <summary>
             /// The Self item.
             /// </summary>
-            [RepositoryItem("4ddf9ff5-fd72-426f-82b2-860d9ceacb1b")]
+            [RepositoryItem("774cce00-826f-490d-af5a-751d33e9f04d")]
             public virtual Ranorex.Form Self
             {
                 get
@@ -159,7 +135,7 @@ namespace TesteTortoise
             /// <summary>
             /// The Self item info.
             /// </summary>
-            [RepositoryItemInfo("4ddf9ff5-fd72-426f-82b2-860d9ceacb1b")]
+            [RepositoryItemInfo("774cce00-826f-490d-af5a-751d33e9f04d")]
             public virtual RepoItemInfo SelfInfo
             {
                 get
@@ -169,33 +145,9 @@ namespace TesteTortoise
             }
 
             /// <summary>
-            /// The File item.
-            /// </summary>
-            [RepositoryItem("bb9eafe3-80c5-4c0a-86d0-2ebaf508796e")]
-            public virtual Ranorex.MenuItem File
-            {
-                get
-                {
-                    return _fileInfo.CreateAdapter<Ranorex.MenuItem>(true);
-                }
-            }
-
-            /// <summary>
-            /// The File item info.
-            /// </summary>
-            [RepositoryItemInfo("bb9eafe3-80c5-4c0a-86d0-2ebaf508796e")]
-            public virtual RepoItemInfo FileInfo
-            {
-                get
-                {
-                    return _fileInfo;
-                }
-            }
-
-            /// <summary>
             /// The Text15 item.
             /// </summary>
-            [RepositoryItem("f136504b-cc5d-4e15-81e2-351dee255727")]
+            [RepositoryItem("8b563e93-8ed2-4b9c-bfdb-61a5ed333501")]
             public virtual Ranorex.Text Text15
             {
                 get
@@ -207,7 +159,7 @@ namespace TesteTortoise
             /// <summary>
             /// The Text15 item info.
             /// </summary>
-            [RepositoryItemInfo("f136504b-cc5d-4e15-81e2-351dee255727")]
+            [RepositoryItemInfo("8b563e93-8ed2-4b9c-bfdb-61a5ed333501")]
             public virtual RepoItemInfo Text15Info
             {
                 get
@@ -217,92 +169,26 @@ namespace TesteTortoise
             }
 
             /// <summary>
-            /// The Edit item.
+            /// The File item.
             /// </summary>
-            [RepositoryItem("289cffd3-f813-42dd-aaa7-682441b407cb")]
-            public virtual Ranorex.MenuItem Edit
+            [RepositoryItem("340973ef-822e-4231-9b91-9bfdf188b8ed")]
+            public virtual Ranorex.MenuItem File
             {
                 get
                 {
-                    return _editInfo.CreateAdapter<Ranorex.MenuItem>(true);
+                    return _fileInfo.CreateAdapter<Ranorex.MenuItem>(true);
                 }
             }
 
             /// <summary>
-            /// The Edit item info.
+            /// The File item info.
             /// </summary>
-            [RepositoryItemInfo("289cffd3-f813-42dd-aaa7-682441b407cb")]
-            public virtual RepoItemInfo EditInfo
+            [RepositoryItemInfo("340973ef-822e-4231-9b91-9bfdf188b8ed")]
+            public virtual RepoItemInfo FileInfo
             {
                 get
                 {
-                    return _editInfo;
-                }
-            }
-        }
-
-        /// <summary>
-        /// The ExplorerAppFolder folder.
-        /// </summary>
-        [RepositoryFolder("dd7f4329-3313-4375-bf04-28aba9acf7e5")]
-        public partial class ExplorerAppFolder : RepoGenBaseFolder
-        {
-            RepoItemInfo _list1Info;
-
-            /// <summary>
-            /// Creates a new Explorer  folder.
-            /// </summary>
-            public ExplorerAppFolder(RepoGenBaseFolder parentFolder) :
-                    base("Explorer", "/desktop[@processname='explorer']", parentFolder, 30000, null, true, "dd7f4329-3313-4375-bf04-28aba9acf7e5", "")
-            {
-                _list1Info = new RepoItemInfo(this, "List1", "?/?/list[@controlid='1']", 30000, null, "aa6826b7-07f0-493d-b15f-c1e594b6845b");
-            }
-
-            /// <summary>
-            /// The Self item.
-            /// </summary>
-            [RepositoryItem("dd7f4329-3313-4375-bf04-28aba9acf7e5")]
-            public virtual Ranorex.Desktop Self
-            {
-                get
-                {
-                    return _selfInfo.CreateAdapter<Ranorex.Desktop>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Self item info.
-            /// </summary>
-            [RepositoryItemInfo("dd7f4329-3313-4375-bf04-28aba9acf7e5")]
-            public virtual RepoItemInfo SelfInfo
-            {
-                get
-                {
-                    return _selfInfo;
-                }
-            }
-
-            /// <summary>
-            /// The List1 item.
-            /// </summary>
-            [RepositoryItem("aa6826b7-07f0-493d-b15f-c1e594b6845b")]
-            public virtual Ranorex.List List1
-            {
-                get
-                {
-                    return _list1Info.CreateAdapter<Ranorex.List>(true);
-                }
-            }
-
-            /// <summary>
-            /// The List1 item info.
-            /// </summary>
-            [RepositoryItemInfo("aa6826b7-07f0-493d-b15f-c1e594b6845b")]
-            public virtual RepoItemInfo List1Info
-            {
-                get
-                {
-                    return _list1Info;
+                    return _fileInfo;
                 }
             }
         }
@@ -310,26 +196,24 @@ namespace TesteTortoise
         /// <summary>
         /// The NotepadAppFolder folder.
         /// </summary>
-        [RepositoryFolder("ec617235-78fc-46a8-966a-87d1d614a79c")]
+        [RepositoryFolder("83874074-e155-4364-89f2-56fdfa99debc")]
         public partial class NotepadAppFolder : RepoGenBaseFolder
         {
-            RepoItemInfo _fontInfo;
             RepoItemInfo _exitInfo;
 
             /// <summary>
             /// Creates a new Notepad  folder.
             /// </summary>
             public NotepadAppFolder(RepoGenBaseFolder parentFolder) :
-                    base("Notepad", "/contextmenu[@processname='notepad']", parentFolder, 30000, null, true, "ec617235-78fc-46a8-966a-87d1d614a79c", "")
+                    base("Notepad", "/contextmenu[@processname='notepad']", parentFolder, 30000, null, true, "83874074-e155-4364-89f2-56fdfa99debc", "")
             {
-                _fontInfo = new RepoItemInfo(this, "Font", "?/?/menuitem[@accessiblename='Font...']", 30000, null, "8b5181a6-5683-41bb-ac0d-30ba73d286de");
-                _exitInfo = new RepoItemInfo(this, "Exit", "?/?/menuitem[@accessiblename='Exit']", 30000, null, "053a3d67-517e-4df5-a945-d917ded72d7f");
+                _exitInfo = new RepoItemInfo(this, "Exit", "?/?/menuitem[@accessiblename='Exit']", 30000, null, "1a4772a1-2c65-4dd1-b21c-5fbff171d52b");
             }
 
             /// <summary>
             /// The Self item.
             /// </summary>
-            [RepositoryItem("ec617235-78fc-46a8-966a-87d1d614a79c")]
+            [RepositoryItem("83874074-e155-4364-89f2-56fdfa99debc")]
             public virtual Ranorex.ContextMenu Self
             {
                 get
@@ -341,7 +225,7 @@ namespace TesteTortoise
             /// <summary>
             /// The Self item info.
             /// </summary>
-            [RepositoryItemInfo("ec617235-78fc-46a8-966a-87d1d614a79c")]
+            [RepositoryItemInfo("83874074-e155-4364-89f2-56fdfa99debc")]
             public virtual RepoItemInfo SelfInfo
             {
                 get
@@ -351,33 +235,9 @@ namespace TesteTortoise
             }
 
             /// <summary>
-            /// The Font item.
-            /// </summary>
-            [RepositoryItem("8b5181a6-5683-41bb-ac0d-30ba73d286de")]
-            public virtual Ranorex.MenuItem Font
-            {
-                get
-                {
-                    return _fontInfo.CreateAdapter<Ranorex.MenuItem>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Font item info.
-            /// </summary>
-            [RepositoryItemInfo("8b5181a6-5683-41bb-ac0d-30ba73d286de")]
-            public virtual RepoItemInfo FontInfo
-            {
-                get
-                {
-                    return _fontInfo;
-                }
-            }
-
-            /// <summary>
             /// The Exit item.
             /// </summary>
-            [RepositoryItem("053a3d67-517e-4df5-a945-d917ded72d7f")]
+            [RepositoryItem("1a4772a1-2c65-4dd1-b21c-5fbff171d52b")]
             public virtual Ranorex.MenuItem Exit
             {
                 get
@@ -389,7 +249,7 @@ namespace TesteTortoise
             /// <summary>
             /// The Exit item info.
             /// </summary>
-            [RepositoryItemInfo("053a3d67-517e-4df5-a945-d917ded72d7f")]
+            [RepositoryItemInfo("1a4772a1-2c65-4dd1-b21c-5fbff171d52b")]
             public virtual RepoItemInfo ExitInfo
             {
                 get
@@ -400,101 +260,9 @@ namespace TesteTortoise
         }
 
         /// <summary>
-        /// The FontAppFolder folder.
-        /// </summary>
-        [RepositoryFolder("73535243-5646-4236-b57f-f63f86fb8dcc")]
-        public partial class FontAppFolder : RepoGenBaseFolder
-        {
-            RepoItemInfo _text1001Info;
-            RepoItemInfo _buttonokInfo;
-
-            /// <summary>
-            /// Creates a new Font  folder.
-            /// </summary>
-            public FontAppFolder(RepoGenBaseFolder parentFolder) :
-                    base("Font", "/form[@title='Font']", parentFolder, 30000, null, true, "73535243-5646-4236-b57f-f63f86fb8dcc", "")
-            {
-                _text1001Info = new RepoItemInfo(this, "Text1001", "combobox[@controlid='1138']/text[@controlid='1001']", 30000, null, "e1f66c5c-bc65-464c-a362-bd8fd2c106e5");
-                _buttonokInfo = new RepoItemInfo(this, "ButtonOK", "button[@text='OK']", 30000, null, "3cfa541e-4c39-42d4-ba35-46954af88fc9");
-            }
-
-            /// <summary>
-            /// The Self item.
-            /// </summary>
-            [RepositoryItem("73535243-5646-4236-b57f-f63f86fb8dcc")]
-            public virtual Ranorex.Form Self
-            {
-                get
-                {
-                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Self item info.
-            /// </summary>
-            [RepositoryItemInfo("73535243-5646-4236-b57f-f63f86fb8dcc")]
-            public virtual RepoItemInfo SelfInfo
-            {
-                get
-                {
-                    return _selfInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Text1001 item.
-            /// </summary>
-            [RepositoryItem("e1f66c5c-bc65-464c-a362-bd8fd2c106e5")]
-            public virtual Ranorex.Text Text1001
-            {
-                get
-                {
-                    return _text1001Info.CreateAdapter<Ranorex.Text>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Text1001 item info.
-            /// </summary>
-            [RepositoryItemInfo("e1f66c5c-bc65-464c-a362-bd8fd2c106e5")]
-            public virtual RepoItemInfo Text1001Info
-            {
-                get
-                {
-                    return _text1001Info;
-                }
-            }
-
-            /// <summary>
-            /// The ButtonOK item.
-            /// </summary>
-            [RepositoryItem("3cfa541e-4c39-42d4-ba35-46954af88fc9")]
-            public virtual Ranorex.Button ButtonOK
-            {
-                get
-                {
-                    return _buttonokInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The ButtonOK item info.
-            /// </summary>
-            [RepositoryItemInfo("3cfa541e-4c39-42d4-ba35-46954af88fc9")]
-            public virtual RepoItemInfo ButtonOKInfo
-            {
-                get
-                {
-                    return _buttonokInfo;
-                }
-            }
-        }
-
-        /// <summary>
         /// The Notepad1AppFolder folder.
         /// </summary>
-        [RepositoryFolder("5b5e43a8-e935-4170-a618-d0fece9aafdf")]
+        [RepositoryFolder("1dd4c318-20e2-4648-86b6-eec5bf8ba123")]
         public partial class Notepad1AppFolder : RepoGenBaseFolder
         {
             RepoItemInfo _dontsaveInfo;
@@ -503,15 +271,15 @@ namespace TesteTortoise
             /// Creates a new Notepad1  folder.
             /// </summary>
             public Notepad1AppFolder(RepoGenBaseFolder parentFolder) :
-                    base("Notepad1", "/form[@title='Notepad']", parentFolder, 30000, null, true, "5b5e43a8-e935-4170-a618-d0fece9aafdf", "")
+                    base("Notepad1", "/form[@title='Notepad']", parentFolder, 30000, null, true, "1dd4c318-20e2-4648-86b6-eec5bf8ba123", "")
             {
-                _dontsaveInfo = new RepoItemInfo(this, "DontSave", "?/?/element[@instance='1']/button[@text='Do&n''t Save']", 30000, null, "d0beb905-8013-4449-84b5-003a68f3383d");
+                _dontsaveInfo = new RepoItemInfo(this, "DontSave", "?/?/element[@instance='1']/button[@text='Do&n''t Save']", 30000, null, "f992f677-6aa5-43e2-bb22-6fd7e6795863");
             }
 
             /// <summary>
             /// The Self item.
             /// </summary>
-            [RepositoryItem("5b5e43a8-e935-4170-a618-d0fece9aafdf")]
+            [RepositoryItem("1dd4c318-20e2-4648-86b6-eec5bf8ba123")]
             public virtual Ranorex.Form Self
             {
                 get
@@ -523,7 +291,7 @@ namespace TesteTortoise
             /// <summary>
             /// The Self item info.
             /// </summary>
-            [RepositoryItemInfo("5b5e43a8-e935-4170-a618-d0fece9aafdf")]
+            [RepositoryItemInfo("1dd4c318-20e2-4648-86b6-eec5bf8ba123")]
             public virtual RepoItemInfo SelfInfo
             {
                 get
@@ -535,7 +303,7 @@ namespace TesteTortoise
             /// <summary>
             /// The DontSave item.
             /// </summary>
-            [RepositoryItem("d0beb905-8013-4449-84b5-003a68f3383d")]
+            [RepositoryItem("f992f677-6aa5-43e2-bb22-6fd7e6795863")]
             public virtual Ranorex.Button DontSave
             {
                 get
@@ -547,7 +315,7 @@ namespace TesteTortoise
             /// <summary>
             /// The DontSave item info.
             /// </summary>
-            [RepositoryItemInfo("d0beb905-8013-4449-84b5-003a68f3383d")]
+            [RepositoryItemInfo("f992f677-6aa5-43e2-bb22-6fd7e6795863")]
             public virtual RepoItemInfo DontSaveInfo
             {
                 get
