@@ -60,6 +60,9 @@
     <Compile Include="ClassB.cs">
       <id>2ebb0e59-ed71-40d9-a6b0-badb8d3ff29e</id>
     </Compile>
+    <Compile Include="ClassB2.cs">
+      <id>2dd1ab82-bbe3-4140-8b9e-35f4dd8e0c31</id>
+    </Compile>
     <Compile Include="Program.cs">
       <id>2975cd66-7392-40f8-acfc-c2d4d4be8c72</id>
     </Compile>
@@ -107,10 +110,6 @@
     <Content Include="TesteTortoise.rxtst">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <id>6cfed933-9713-4f0e-8274-08d22d21e888</id>
-    </Content>
-    <Content Include="C:\Users\edgar.almeida\Documents\Ranorex\TesteTortoiseB\TesteTortoise\TesteB.rxtst">
-      <id>df4d0374-77f1-48e2-8685-e28e0420bb05</id>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
   <Import Condition="Exists('$(MSBuildExtensionsPath)\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets')" Project="$(MSBuildExtensionsPath)\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets" />
