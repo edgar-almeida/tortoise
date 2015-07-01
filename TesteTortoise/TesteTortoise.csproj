@@ -57,12 +57,6 @@
     <Compile Include="AssemblyInfo.cs">
       <id>4516bd79-ca8b-4977-9487-a99aa3990c4a</id>
     </Compile>
-    <Compile Include="ClassB.cs">
-      <id>2ebb0e59-ed71-40d9-a6b0-badb8d3ff29e</id>
-    </Compile>
-    <Compile Include="ClassB2.cs">
-      <id>2dd1ab82-bbe3-4140-8b9e-35f4dd8e0c31</id>
-    </Compile>
     <Compile Include="Program.cs">
       <id>2975cd66-7392-40f8-acfc-c2d4d4be8c72</id>
     </Compile>
