@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="5.3.1.22939"
+id="5e0e10a1-8715-4c17-8a84-22be3c08287a"
+embeddedrepository="false"
+mode="Global">
+	<name>
+		Recording3
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Recording3"
+	namespace="TesteTortoise"/>
+	<variables/>
+	<recorditems/>
+	<repository
+	name="TesteTortoiseRepository"
+	id="9aa08d1d-bb45-4d48-a40a-49a92f4225b6"
+	rxversion="5.3.1.22939"
+	relativepath="TesteTortoiseRepository.rxrep">
+		<codegen
+		classname="TesteTortoiseRepository"
+		namespace="TesteTortoise"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="3c2c961a-3564-4d41-91b3-1756b94141d2"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Recording3.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

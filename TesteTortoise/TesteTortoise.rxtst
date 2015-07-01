@@ -28,6 +28,15 @@ reportlevel="Info;20">
 				ref="aac1284d-7682-4d6e-9130-b9c8f6e52293"
 				type="Recording"/>
 			</testcase>
+			<testcase
+			name="TestCase2"
+			id="e1e1f95a-e9ca-493d-9298-f9302a7babc8">
+				<testmodule
+				name="Recording3"
+				id="a35ca158-7369-4cb9-9500-908b5a0e7549"
+				ref="5e0e10a1-8715-4c17-8a84-22be3c08287a"
+				type="Recording"/>
+			</testcase>
 		</testcase>
 	</content>
 	<testconfigurations
@@ -39,7 +48,7 @@ reportlevel="Info;20">
 			<testcase
 			id="bcd362c0-d646-42d3-b785-38591aa5f130"/>
 			<testcase
-			id="e8c6bedd-2df3-4185-9155-1e2369ba86ba"/>
+			id="e1e1f95a-e9ca-493d-9298-f9302a7babc8"/>
 		</testconfiguration>
 	</testconfigurations>
 	<references/>

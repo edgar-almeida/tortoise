@@ -11,13 +11,12 @@ using System;
 namespace TesteTortoise
 {
 	/// <summary>
-	/// Description of ClassA.
+	/// Description of ClassB.
 	/// </summary>
-	public class ClassA
+	public class ClassB
 	{
-		public ClassA()
+		public ClassB()
 		{
-			string a = "TESTE A";
 		}
 	}
 }

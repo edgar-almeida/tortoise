@@ -58,7 +58,10 @@
       <id>4516bd79-ca8b-4977-9487-a99aa3990c4a</id>
     </Compile>
     <Compile Include="ClassA.cs">
-      <id>f736265a-949d-4553-a04a-14a389a8aa38</id>
+      <id>83ad7f04-07fd-41e7-be97-b5bcda5aac8d</id>
+    </Compile>
+    <Compile Include="ClassB.cs">
+      <id>16b20385-513f-44ce-bc5b-04c4855fdba7</id>
     </Compile>
     <Compile Include="Program.cs">
       <id>2975cd66-7392-40f8-acfc-c2d4d4be8c72</id>
@@ -74,6 +77,18 @@
       <DependentUpon>Recording1.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>117dfec6-bc36-4c6b-9754-863931d2aee5</id>
+    </Compile>
+    <Compile Include="Recording3.cs">
+      <BoundTo>84ce9f0e-d654-4760-a596-aabbac60e9eb</BoundTo>
+      <DependentUpon>Recording3.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>267500f4-d23c-49ab-b0f6-adece16fc09f</id>
+    </Compile>
+    <Compile Include="Recording3.UserCode.cs">
+      <BoundTo>84ce9f0e-d654-4760-a596-aabbac60e9eb</BoundTo>
+      <DependentUpon>Recording3.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7b8a358f-13ef-4364-998a-5a34faa39be4</id>
     </Compile>
     <Compile Include="Recording2.cs">
       <BoundTo>55a29e21-d0fa-4f4a-9ec3-26321b779425</BoundTo>
@@ -105,6 +120,11 @@
       <BoundTo>3a3da64c-5678-489c-bd44-d31662b69467</BoundTo>
       <id>55a29e21-d0fa-4f4a-9ec3-26321b779425</id>
       <recordtableid>aac1284d-7682-4d6e-9130-b9c8f6e52293</recordtableid>
+    </None>
+    <None Include="Recording3.rxrec">
+      <BoundTo>3a3da64c-5678-489c-bd44-d31662b69467</BoundTo>
+      <id>84ce9f0e-d654-4760-a596-aabbac60e9eb</id>
+      <recordtableid>5e0e10a1-8715-4c17-8a84-22be3c08287a</recordtableid>
     </None>
     <None Include="TesteTortoiseRepository.rximg">
       <BoundTo>3a3da64c-5678-489c-bd44-d31662b69467</BoundTo>

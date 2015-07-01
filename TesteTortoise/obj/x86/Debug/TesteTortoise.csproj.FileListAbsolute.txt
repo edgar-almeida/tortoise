@@ -31,3 +31,11 @@ C:\Users\edgar.almeida\Documents\Ranorex\RanorexStudio Projects\A\TesteTortoise\
 C:\Users\edgar.almeida\Documents\Ranorex\RanorexStudio Projects\A\TesteTortoise\obj\x86\Debug\TesteTortoise.csprojResolveAssemblyReference.cache
 C:\Users\edgar.almeida\Documents\Ranorex\RanorexStudio Projects\A\TesteTortoise\obj\x86\Debug\TesteTortoise.exe
 C:\Users\edgar.almeida\Documents\Ranorex\RanorexStudio Projects\A\TesteTortoise\obj\x86\Debug\TesteTortoise.pdb
+C:\Users\edgar.almeida\Documents\Ranorex\RanorexStudio Projects\B\TesteTortoise\bin\Debug\TesteTortoise.rxtmg
+C:\Users\edgar.almeida\Documents\Ranorex\RanorexStudio Projects\B\TesteTortoise\bin\Debug\TesteTortoise.rxtst
+C:\Users\edgar.almeida\Documents\Ranorex\RanorexStudio Projects\B\TesteTortoise\bin\Debug\TesteTortoise.exe.config
+C:\Users\edgar.almeida\Documents\Ranorex\RanorexStudio Projects\B\TesteTortoise\bin\Debug\TesteTortoise.exe
+C:\Users\edgar.almeida\Documents\Ranorex\RanorexStudio Projects\B\TesteTortoise\bin\Debug\TesteTortoise.pdb
+C:\Users\edgar.almeida\Documents\Ranorex\RanorexStudio Projects\B\TesteTortoise\obj\x86\Debug\TesteTortoise.csprojResolveAssemblyReference.cache
+C:\Users\edgar.almeida\Documents\Ranorex\RanorexStudio Projects\B\TesteTortoise\obj\x86\Debug\TesteTortoise.exe
+C:\Users\edgar.almeida\Documents\Ranorex\RanorexStudio Projects\B\TesteTortoise\obj\x86\Debug\TesteTortoise.pdb
